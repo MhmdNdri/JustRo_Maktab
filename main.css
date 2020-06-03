@@ -1,1 +1,85 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.nav-linkSass {
+  color: #252525;
+  font-family: Shabnam;
+  margin-right: 20px;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  font-weight: 300;
+}
+
+.nav-item {
+  margin-right: 64px;
+}
+
+.navbar-box {
+  -webkit-box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
+          box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
+}
+
+.Rectangle-1 {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.download-buttons {
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url(fonts/"Shabnam.eot");
+  src: url(fonts/"Shabnam.eot?#iefix") format("embedded-opentype"), url(fonts/"Shabnam.woff2") format("woff2"), url(fonts/"Shabnam.woff") format("woff"), url(fonts/"Shabnam.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url(fonts/"Shabnam-Bold.eot");
+  src: url(fonts/"Shabnam-Bold.eot?#iefix") format("embedded-opentype"), url(fonts/"Shabnam-Bold.woff2") format("woff2"), url(fonts/"Shabnam-Bold.woff") format("woff"), url(fonts/"Shabnam-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url(fonts/"Shabnam-Thin.eot");
+  src: url(fonts/"Shabnam-Thin.eot?#iefix") format("embedded-opentype"), url(fonts/"Shabnam-Thin.woff2") format("woff2"), url(fonts/"Shabnam-Thin.woff") format("woff"), url(fonts/"Shabnam-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url(fonts/"Shabnam-Light.eot");
+  src: url(fonts/"Shabnam-Light.eot?#iefix") format("embedded-opentype"), url(fonts/"Shabnam-Light.woff2") format("woff2"), url(fonts/"Shabnam-Light.woff") format("woff"), url(fonts/"Shabnam-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url(fonts/"Shabnam-Medium.eot");
+  src: url(fonts/"Shabnam-Medium.eot?#iefix") format("embedded-opentype"), url(fonts/"Shabnam-Medium.woff2") format("woff2"), url(fonts/"Shabnam-Medium.woff") format("woff"), url(fonts/"Shabnam-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+/*# sourceMappingURL=main.css.map */
