@@ -1,5 +1,6 @@
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
+@import 'abstracts/animation';
 
 @import 'layout/navigation';
 @import 'layout/header';
@@ -10,3 +11,4 @@
 
 @import 'base/base';
 @import 'base/fonts';
+@import 'base/media-queries';

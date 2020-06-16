@@ -1,0 +1,26 @@
+@media screen and (min-width: 780px) {
+    .logo{
+        transform: translateY(-55px);
+    }
+    .navbar-box{
+        box-shadow: none;
+    }
+    .header-one{
+        transform: translateY(-50px);
+        margin: 0 120px;
+    }
+    .input-num{
+        transform: translateX(-50px);
+    }
+    .btn-dn{
+        transform: translateX(30px);
+    }
+}
+@media screen and (max-width: 480px) {
+    .back-img{
+        height: 550px;
+    }
+    .input-mail{
+        width: 100px;
+    }
+}

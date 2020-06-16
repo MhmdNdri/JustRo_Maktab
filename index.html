@@ -17,19 +17,22 @@
         <link rel="stylesheet" href="main.css">
         <link href="https://cdn.jsdelivr.net/gh/rastikerdar/shabnam-font@v(e.g. 5.0.1)/dist/font-face.css"
         rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
         
         <div class="container-fluid p-0 ">
-            <nav class="navbar navbar-expand-lg navbar-light navbar-box">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-box main-navigation shadow-lg-none shadow-xl-none">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
-                <a class="navbar-brand" href="#">جاسترو</a>
-
+                <a class="navi-text navbar-brand d-md-none d-xs-show " href="#">جاسترو</a>
+                <div class="search-ico">
+                  <img src="assets/icons8-search.svg" alt="search-icon" class="d-md-none d-xs-show search-icon">
+                </div>
                 <div class="collapse navbar-collapse nav-linkSass" id="navbarNavDropdown" >
-                  <ul class="navbar-nav">
+                  <ul class="navbar-nav mx-auto">
                     <li class="nav-item ">
                       <a class="nav-link " href="#">صفحه ی اصلی<span class="sr-only">(current)</span></a>
                     </li>
@@ -67,82 +70,119 @@
                   </ul>
                 </div>
               </nav>
-              <div class="bg-primary">LOGO
-          
+              <div class="logo">
+                <img src="assets/009_logo_Bg.svg" alt="backgroungLogo" class="logo-bg">
+                <img src="assets/icon1.png" alt="logoJustro" class="logo-icon">
+                <span class="logo-text">جاسترو</span>
+                <!-- <img src="assets/010_header_wave.png" alt="wave" class="logo-wave"> -->
               </div>
-              <div class="px-xs-0 px-sm-0 px-md-4 px-lg-5 px-xl-5">
-                  <div class="row mx-0">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 bg-warning">
-                        sec1
+              <div class="px-xs-0 px-sm-0 px-md-4 px-lg-6 px-xl-6 header-one">
+                  <div class="row mx-0 ">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  d-flex flex-column ">
+                        <h2 class=" h2-text">بهتر سفر کنید</h2>
+                        <span class="underline-text"></span>
+                        <p class="header-p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                           از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                          چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                           شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با 
+                          هدف بهبود ابزارهای کاربردی می باشد. </p>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 bg-dark">
-                      sec1
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 travel">
+                      <img src="assets/007_manzare_bg.png" alt="manzare-bg" class="travel-bg">
+                      <img src="assets/006_slide3_traveling.svg" alt="" class="travel-pic">
+                      <img src="assets/008_slide3_birds.png" alt="" class="travel-bird ">
                     </div>
                   </div>
               </div>
-              <div class="row text-center wawe mx-0 bg-info">
-                  <div class="col-12"> Moj </div>
+              <div class="row text-center mx-0 ">
+                  <div class="wave">
+                    <div alt="wave" class="wavee wave-pic1"></div>
+                    <div alt="wave" class="wavee wave-pic2"></div>
+                  </div>
               </div>
               <!-- section 2 -->
-              <div class="px-xs-0 px-sm-0 px-md-4 px-lg-5 px-xl-5 ">
+              <div class="px-xs-0 px-sm-0 px-md-4 px-lg-5 px-xl-5 header-2">
                 <div class="row mx-0">
+                    <!--mobile stepper -->
+                    <div class="col-12 d-md-none d-lg-none d-xl-none icon">
+                      <div class="icon-br rounded-circle"><i class=" icon-icon_didani icon-br-pic"></i></div>
+                      <div class="icon-br"><i class=" icon-icon_restaurant icon-br-pic"></i></div>
+                      <div class="icon-br"><i class=" icon-icon_hotel icon-br-pic"></i></div>
+                      <div class="icon-br"><i class=" icon-icon_fly icon-br-pic"></i></div>
+                      <div class="icon-br"><i class=" icon-icon_nearme icon-br-pic"></i></div>
+                      <div class="icon-br"><i class=" icon-icon_favorites icon-br-pic"></i></div>
+                    </div>
+                    <!-- Image -->
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 ">
+                      <div class="mobile">
+                        <img src="assets/012_phonemockup.png" alt="" class="mobile-bg">
+                        <img src="assets/mobile.png" alt="mobile" class="mobile-img">
+                      </div>
+                    </div>
                     <!-- stepper -->
-                    <div class="col-12 d-md-none d-lg-none d-xl-none bg-muted">
-                        Mobile Stepper
+                    <div class="col-2 d-none d-md-block d-lg-block d-xl-block d-xs-none d-sm-none
+                    stepper d-flex justify-content-around flex-column my-4 position-relative">
+                      <div class="khat"></div>
+                      <div class="icon-br my-4"><i class=" icon-icon_didani icon-br-pic"></i></div>
+                      <div class="icon-br my-4"><i class=" icon-icon_restaurant icon-br-pic"></i></div>
+                      <div class="icon-br my-4"><i class=" icon-icon_hotel icon-br-pic"></i></div>
+                      <div class="icon-br my-4"><i class=" icon-icon_fly icon-br-pic"></i></div>
+                      <div class="icon-br my-4"><i class=" icon-icon_nearme icon-br-pic"></i></div>
+                      <div class="icon-br my-4"><i class=" icon-icon_favorites icon-br-pic"></i></div>
                     </div>
-                    <!-- Image Mobile -->
-                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 bg-dark">
-                    mobileImage
-                    </div>
-                    <!--Mobile stepper -->
-                    <div class="col-2 d-none d-md-block d-lg-block d-xl-block stepper bg-secondary">
-                        Stepper DesktopOnly
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 bg-warning">
-                        <h3>Title</h3>
-                        <p>
-                            paragraph
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 align-middle p-hotel ">
+                        <h3 class='headere-parvaz'>هتل‌ها، جستجو و رزرو کنید</h3>
+                        <p class="header-p my-4">
+                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                          از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                          چاپگرها و متون بلکه روزنامه و مجله در ستون و 
+                          سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی. 
+                          از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                          چاپگرها و متون بلکه روزنامه و مجله در ستون و 
+                          سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی. 
                         </p>
                     </div>
                 </div>
               </div>
               <div class="px-xs-0 px-sm-0 px-md-4 px-lg-5 px-xl-5 ">
-                <div class="row mx-0">
+                <div class="row mx-0 download-boxx">
                   <div class="download-box col-12 p-0">
                     <div class="row mx-0 d-flex">
-                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 bg-info text-center">Download Box Img</div>
-                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 text-light bg-dark text-center">
-                        <div class="">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 text-center">
+                        <img src="assets/021_dlbox_icon_download.svg" alt="download-icon" class="download-icon ">
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 text-light text-center">
+                        <div class="headere-parvaz">
                           دانلود اپلیکیشن جاسترو
                         </div>
-                        <div class="">
+                        <div class="download-p">
                           شما می‌تونید با وارد کردن شماره همراه خود در کارد پایین، لینک دانلود اپلیکیشن رو دریافت کنید
                         </div>
-                        <div class=" col-6 mx-auto row ">
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 bg-warning">
-                            input
+                        <div class=" col-6 mx-auto row my-4">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 my-2">
+                            <input type="tel" placeholder="09" class="input-num">
                           </div>
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 bg-info">
-                            button
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 my-2">
+                            <button class="btn Rectangle-1 btn-dn">دانلود</button>
                           </div>
                         </div>
-                        <div class="text-center">
+                        <div class="text-center download-p">
                           یا از یکی از روشهای زیر اپلیکیشن جاسترو رو دانلود کنید
                         </div>
                         <div class="col-7 mx-auto row download-buttons">
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 bg-warning my-2 px-2">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4  my-2 px-2">
                             <div class="mx-2">
-                              button
+                              <button class="btn btn-green">دانلود مستقیم</button>
                             </div>
                           </div>
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 bg-primary my-2 px-2">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4  my-2 px-2">
                             <div class="mx-2">
-                              button
+                              <button class="btn btn-green">Google Play</button>
                             </div>
                           </div>
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 bg-info my-2 px-2">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4  my-2 px-2">
                             <div class="mx-2">
-                              button
+                              <button class="btn btn-green">کافه بازار</button>
                             </div>
                           </div>
                         </div>
@@ -154,56 +194,97 @@
 
               <div class="px-xs-0 px-sm-0 px-md-4 px-lg-5 px-xl-5 my-3 ">
 
-                <div class="row mx-0 ">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-light bg-primary text-center">
-                    <div class="">
-                      آمادگی سفر
-                    </div>
-                    <div class="">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با 
-                      استفاده از طراحان گرافیک است.
-                       چاپگرها و متون بلکه روزنامه
-                       و مجله در ستون و سطرآنچنان که
-                       لازم است و برای شرایط فعلی تکنولوژی.
-                    </div>
-                    <div class="col-6 mx-auto row mx-0 ">
-                      <div class= "col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-auto ">
-                        <div class="Rectangle-1 text-center download-buttons"> btn </div>
-                      </div>
+                <div class="row mx-0">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-light text-center my-5 ">
+                    <div class="back-img">
+                      <div class="h3-amadegisafar">
+                        <h3> آمادگی سفر </h3>
+                       </div>
+                       <div class="h3-amadegisafar">
+                         <p>
+                           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با 
+                           استفاده از طراحان گرافیک است.
+                           چاپگرها و متون بلکه روزنامه
+                           و مجله در ستون و سطرآنچنان که
+                           لازم است و برای شرایط فعلی تکنولوژی.
+                         </p>
+                       </div>
+                       <div class="col-6 mx-auto row mx-0 ">
+                         <div class= "col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-auto ">
+                           <button class="Rectangle-1 amade-safar"> آماده سفر شو </button>
+                         </div>
+                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="px-xs-0 px-sm-0 px-md-4 px-lg-5 px-xl-5 my-3 ">
                 <div class="row mx-0 ">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-primary text-center">
-                    <div class="">ایده های سفر
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                    <div class=""><h2 class="headere-parvaz">ایده های سفر</h2> 
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-secondary text-center">
-                    <div class="">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12  text-center">
+                    <h5 class="header-p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                      از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                       چاپگرها و متون بلکه روزنامه و مجله در ستون
+                        و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                      از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                       چاپگرها و متون بلکه روزنامه و مجله در ستون
+                        و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                      از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                       چاپگرها و متون بلکه روزنامه و مجله در ستون
+                        و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
                       از صنعت چاپ و با استفاده از طراحان گرافیک است.
                        چاپگرها و متون بلکه روزنامه و مجله در ستون
                         و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی. 
-                    </div>
+                    </h5>
                   </div>  
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-warning">
-                    <div class="">
-                      Images
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-12 bg-dark">
-                    <div class="">ایده های جدید رو هفتگی دریافت کن
-                      آدرس ایمیل خودتون رو در کادر زیر وارد
-                      و گزینه ثبت ایمیل رو بزنید.
-                    </div>
-                  </div>
-                  <div class=" col-5 row mx-auto">
-                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 bg-info">
-                      <div class="">Input
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="scrol-img">
+                      <div class="place-img">
+                        <!-- <img src="assets/1.jpg" alt="img" class="palce-img-ii"> -->
+                      </div>
+                      <div class="place-img">
+                        <!-- <img src="assets/2.jpg" alt="img" class="palce-img-ii"> -->
+                      </div>
+                      <div class="place-img">
+                        <!-- <img src="assets/5.jpg" alt="img" class="palce-img-ii"> -->
+                      </div>
+                      <div class="place-img">
+                        <!-- <img src="assets/3.jpg" alt="img" class="palce-img-ii"> -->
+                      </div>
+                      <div class="place-img">
+                        <!-- <img src="assets/4.jpg" alt="img" class="palce-img-ii"> -->
+                      </div>
+                      <div class="place-img">
+                        <!-- <img src="assets/5.jpg" alt="img" class="palce-img-ii"> -->
+                      </div>
+                      <div class="place-img">
+                        <!-- <img src="assets/6.jpg" alt="img" class="palce-img-ii"> -->
                       </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 bg-secondary">
-                      <div class="Rectangle-1 text-center Email-button"> ثبت ایمیل </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 ">
+                    <div class="">
+                      <h5 class="text-center my-4" >
+                        ایده های جدید رو هفتگی دریافت کن
+                      آدرس ایمیل خودتون رو در کادر زیر وارد
+                      و گزینه ثبت ایمیل رو بزنید.
+                      </h5>
+                    </div>
+                  </div>
+                  <div class=" col-5 row mx-auto ">
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 my-2 ">
+                      <div class="">
+                        <input type="email" placeholder="ایمیل خود را وارد کنید" class="input-mail">
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 my-2 ">
+                      <button class="btn Rectangle-1 btn-dn">ثبت ایمیل</button>
                     </div>
                   </div> 
                 </div>
