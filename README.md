@@ -1,2 +1,2 @@
 #JustRo_Landing_Page
-ttps://mhmdndri.github.io/JustRo_Maktab/
+https://mhmdndri.github.io/JustRo_Maktab/
